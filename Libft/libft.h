@@ -6,11 +6,9 @@
 /*   By: tomato-soup <tomato-soup@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/26 17:06:51 by sisupapi          #+#    #+#             */
-/*   Updated: 2026/09/15 11:30:06 by tomato-soup      ###   ########.fr       */
+/*   Updated: 2026/09/15 11:33:02 by tomato-soup      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// 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
 
 #ifndef LIBFT_H
 # define LIBFT_H
