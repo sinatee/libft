@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sisupapi <sisupapi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tomato-soup <tomato-soup@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/15 21:17:43 by sisupapi          #+#    #+#             */
-/*   Updated: 2026/09/16 01:53:23 by sisupapi         ###   ########.fr       */
+/*   Updated: 2026/09/17 22:30:35 by tomato-soup      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	{
 		is_equal = ft_strncmp(&big[i], little, little_len);
 		if (is_equal == 0)
-			return (&big[i]);
+			return ((char *)&big[i]);
 		i++;
 	}
 	return (NULL);
