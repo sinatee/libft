@@ -126,7 +126,7 @@ Makefile, then link `libft.a` when compiling the rest of the project.
 
 ### AI usage
 
-AI assistance (Claude) was used only in a supporting role: to help structure and
+AI assistance was used only in a supporting role: to help structure and
 format this README file. All function implementations, the Makefile, and the logic
 of the library were written and reasoned through independently, in line with 42's
 guidelines on AI usage.
